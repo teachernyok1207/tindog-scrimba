@@ -1,0 +1,115 @@
+html, body{
+    margin: 0 auto;
+    max-width: 550px;
+    height: 892px;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+}
+
+/* Typography */
+
+h2{
+    position: absolute;
+    color: #F8F8F8;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.25rem;
+    top: 85%;
+    left: 3%;
+}
+
+h4{
+    position: absolute;
+    color: #B7B7B7;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem; /* 133.333% */
+    top: 90%;
+    left: 3%;
+}
+
+/* Layout */
+header{
+    width: 550px;
+    height: auto;
+    display: flex;
+    margin: 0;
+    border-bottom: 1px solid lightgrey
+}
+
+section{
+    display: block;
+    margin: 0 auto;
+}
+
+#tindog-div{
+    height: 751.443px;
+    width: 550px;
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    border-bottom: 1px solid lightgrey;
+}
+
+#tindog-buttons{
+    display: flex;
+    justify-content: center;
+}
+
+/* Images */
+.profile-pic{
+    margin: 0.5rem;
+    width: 32.326px;
+    height: 34px;
+    border-radius: 50%;
+    border: 2px solid lightgrey;
+}
+
+.app-logo{
+    width: 84px;
+    height: 42px;
+    margin: 0.5rem auto;
+    cursor: pointer;
+}
+
+.message-logo{
+    width: 34px;
+    height: 34px;
+    margin: 0.5rem;
+}
+
+#dog-images{
+    width: 534px;
+    height: 751.443px;
+    border-radius: 15px;
+    display: block;
+    margin: 0.5rem auto;
+}
+
+#dog-remarks{
+    position: absolute;
+    width: 150px;
+    transform: rotate(-30deg);
+    top: 5%;
+    left: 3%;
+}
+
+#button-like,
+#button-nope{
+    width: 30px;
+    height: 30px;
+    padding: 1rem;
+    margin: 1.5rem;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    cursor: pointer;
+}
+
+#button-like:hover,
+#button-nope:hover{
+    width: 32px;
+    height: 32px;
+}
